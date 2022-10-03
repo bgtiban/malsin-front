@@ -1,0 +1,1 @@
+-keep class es.bgtiban.malsin.malsin_front.BuildConfig { *; }
