@@ -55,7 +55,7 @@ class HomeWidgetState extends State<HomeWidget> {
       home: Scaffold(
         appBar: AppBar(
           leading: const IconButton(onPressed: null, icon: Icon(Icons.menu_rounded)),
-          title: Text(FlutterConfig.get('API_GOOGLE_MAPS_KEY') ?? 'API_GOOGLE_MAPS_KEY not found'),
+          title: const Text("Home"),
           backgroundColor: Colors.green[700],
         ),
         body: GoogleMap(
